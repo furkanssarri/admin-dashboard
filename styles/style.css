@@ -14,6 +14,11 @@ h1,h2,h3,h4,h5,h6 {
    font-weight: 500;
 }
 
+.content {
+   display: flex;
+   flex-direction: column;
+}
+
 .container {
    display: grid;
    grid-template-columns: 1fr 4fr;
@@ -167,7 +172,7 @@ aside .logo {
 .sidebar nav ul li {
    list-style-type: none;
    margin: 5px;
-   padding: 10px;
+   padding: 15px;
 }
 
 .sidebar nav ul a {
@@ -306,7 +311,7 @@ article .trending .trending-user div {
 }
 
 article .trending img {
-   width: 20%;
+   width: 25%;
    vertical-align: middle;
    cursor: pointer;
 }
@@ -316,3 +321,11 @@ article .trending p {
    font-size: 0.8rem;
    
 }
+
+footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 15px;
+}
+
